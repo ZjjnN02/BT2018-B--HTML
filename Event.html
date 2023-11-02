@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải phương trình bậc nhất</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+        }
+
+        h3 {
+            background-color: rgb(60, 130, 244);
+            color: white;
+            padding: 10px;
+            
+        }
+        .row {
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .tap {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Giai phuong trinh bac 1</h3>
+        <div class="tap">
+            <button onclick="tap1()" class="row">Nhập giá trị A</button>
+            <button onclick="tap2()" class="row">Nhập giá trị B</button>
+            <button onclick="tap3()" class="row">In kết quả</button>
+        </div>
+
+    <script type="text/javascript">
+        var a, b
+        function tap1() {
+            a = prompt('Nhập giá trị a')
+        }
+        function tap2() {
+            b = prompt('Nhập giá trị b')
+        }
+        function tap3() {
+            num = a + b;
+            alert("Tổng của a và b " +num)
+        }
+    </script>
+    
+</body>
+</html>
